@@ -3,11 +3,11 @@
 {
 	top: 20px;
 	position: relative;
-	width: 1100px;
-	height: 750px;
-	left: 200px;
+	width: 900px;
+	height: 650px;
+	margin-left: 200px;
 	background-image: url("../nkarner/game_background_image.png");
-	background-size: cover;
+	background-size: contain;
 
 }
 
@@ -15,7 +15,7 @@
 {
 	position: relative;
 	top: 20px;
-	left: 95%;
+	margin-left: 1200px;
 
 }
 
@@ -23,14 +23,14 @@
 {
 	position: relative;
 	top: 20px;
-	left: 95%;
+	margin-left: 1200px;
 
 }
 
 #div_start_game
 {
 	position: relative;
-	left: 42%;
+	margin-left: 42%;
 	top: 66%;
 }
 #div_start1_button
@@ -61,8 +61,8 @@
 {
 	top: 20px;
 	position: relative;
-	width: 1100px;
-	height: 740px;
+	width: 900px;
+	height: 650px;
 	left: 200px;
 	background-image: url("../nkarner/select_level_background_image.png");
 	background-size: cover;
@@ -109,7 +109,7 @@
 #div_select_level_mej
 {
 	position: relative;
-	width: 40%;
+	width: 50%;
 	height: 57%;
 	top: 13%;
 	left: 30%;
@@ -123,7 +123,7 @@
 	top: 20px;
 	position: relative;
 	width: 1210px;
-	height: 728px;
+	height: 650px;
 	background-image: url("../nkarner/select_level_background_image.png");
 	background-size: cover;
 }
@@ -177,3 +177,55 @@
 	top: 0%;
 }
 
+#mard_1{
+	position: absolute; 
+	top: 150px; 
+	left: 34px; 
+	width: 20px; 
+	height: 29px;
+}
+#mard_2{
+	filter: blur(1px);
+	position: absolute; 
+	top: 480px; 
+	left: 34px; 
+	width: 20px; 
+	height: 29px;
+	transform: scaleY(-1);
+}
+#finish{
+	position: absolute;
+	top: 41%; 
+	left: 95.5%; 
+	width: 50px; 
+	height: 64px;
+}
+#finish1{
+	position: absolute;
+	top: 56.6%; 
+	left: 95.5%; 
+	width: 50px; 
+	height: 64px;
+	transform: scaleY(-1);
+}
+.mek{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+}
+.erku{
+	position: absolute;
+	width: 30px;
+	height: 15px;
+	background-size: cover;
+}
+.mejtex{
+
+	position: absolute;
+	width: 1200px;
+	height: 30px;
+	top: 300px;
+	background-size: cover;
+	background-image: url('../nkarner/tak.png');
+}
